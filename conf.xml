@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conf>
+  <username>username</username>
+  <password>password</password>
+  <databaseName>databaseName</databaseName>
+  <pathToRawData>pathToRawData</pathToRawData>
+  <pathToColumn>pathToColumn.txt</pathToColumn>
+  <columnCount>82</columnCount>
+</conf>

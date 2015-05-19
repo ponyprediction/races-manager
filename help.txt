@@ -1,0 +1,22 @@
+**************************
+* Help for races-manager *
+**************************
+
+Adding to database
+    add [yyy-mm-dd]
+    add from [yyy-mm-dd] to [yyy-mm-dd]
+
+Downloading data
+    dl [yyy-mm-dd]
+    dl from [yyy-mm-dd] to [yyy-mm-dd]
+
+Downloading data and adding to database
+    dlnadd [yyy-mm-dd]
+    dlnadd from [yyy-mm-dd] to [yyy-mm-dd]
+
+Getting some help
+    help
+
+Options
+    -f      : force the command
+              execute the command even if the file or table already exists
