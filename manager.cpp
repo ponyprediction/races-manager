@@ -11,6 +11,7 @@
 #include <QNetworkAccessManager>
 #include <QEventLoop>
 #include <QNetworkReply>
+#include <QFileInfo>
 
 Manager::Manager() :
     database(),
@@ -239,7 +240,7 @@ void Manager::download(const QDate & date, const bool & force)
         if (ok && !output.open(QIODevice::WriteOnly))
         {
             ok = false;
-            error = "couldn't open file";
+            error = "couldn't open " + QFileInfo(output).absoluteFilePath();
         }
     }
     // starting message
