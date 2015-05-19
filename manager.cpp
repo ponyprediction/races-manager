@@ -151,7 +151,8 @@ void Manager::add(const QDate & date, const bool & forced)
                 Util::addMessage("ERROR: Not the right count of value: "
                                  + QString::number(values.size())
                                  + " instead of "
-                                 + Util::getLineFromConf("columnCount"));
+                                 + Util::getLineFromConf("columnCount")
+                                 + " at line " + QString::number(lineNumber));
             }
         }
         file.close();
